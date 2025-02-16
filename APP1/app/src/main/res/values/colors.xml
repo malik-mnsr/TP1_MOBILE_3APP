@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+
+    <color name="purple_500">#6200EE</color>
+    <color name="P2">#35A4C5</color>
+    <color name="lavender_light">#F3EDF9</color>
+    <color name="gray">#8A8A8A</color>
+
+    <color name="button_color">#4CAF50</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

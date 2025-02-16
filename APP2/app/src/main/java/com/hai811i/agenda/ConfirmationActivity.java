@@ -15,12 +15,12 @@ public class ConfirmationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirmation);
 
-        // Initialize views
+
         tvName = findViewById(R.id.tvName);
         tvRoute = findViewById(R.id.tvRoute);
         tvDateTime = findViewById(R.id.tvDateTime);
 
-        // Retrieve data from the intent
+
         Intent intent = getIntent();
         String firstName = intent.getStringExtra("firstName");
         String lastName = intent.getStringExtra("lastName");

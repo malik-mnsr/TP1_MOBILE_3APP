@@ -28,14 +28,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Initialize views
         etFirstName = findViewById(R.id.etFirstName);
         etLastName = findViewById(R.id.etLastName);
         spnFrom = findViewById(R.id.spnFrom);
         spnTo = findViewById(R.id.spnTo);
         btnSearch = findViewById(R.id.btnSearch);
 
-        // Load Spinners with data (same as before)
+
         ArrayAdapter<CharSequence> sourceAdapter = ArrayAdapter.createFromResource(
                 this,
                 R.array.source_stations,
@@ -52,19 +51,19 @@ public class MainActivity extends AppCompatActivity {
         destinationAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spnTo.setAdapter(destinationAdapter);
 
-        // Handle Search Button Click
+
         btnSearch.setOnClickListener(v -> {
-            // Get user input
+
             String firstName = etFirstName.getText().toString().trim();
             String lastName = etLastName.getText().toString().trim();
             String source = spnFrom.getSelectedItem().toString();
             String destination = spnTo.getSelectedItem().toString();
 
-            // Validate input
+
             if (firstName.isEmpty() || lastName.isEmpty() || source.equals("Source") || destination.equals("Destination")) {
                 Toast.makeText(this, "Please fill all fields and select valid stations", Toast.LENGTH_SHORT).show();
             } else {
-                // Launch the second activity and pass data
+
                 Intent intent = new Intent(MainActivity.this, TrainScheduleActivity.class);
                 intent.putExtra("firstName", firstName);
                 intent.putExtra("lastName", lastName);

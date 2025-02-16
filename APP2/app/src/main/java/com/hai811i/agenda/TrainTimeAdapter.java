@@ -15,7 +15,7 @@ public class TrainTimeAdapter extends ArrayAdapter<String> {
 
     private Context context;
     private List<String> trainTimes;
-    private int selectedPosition = -1; // Track the selected position
+    private int selectedPosition = -1;
 
     public TrainTimeAdapter(@NonNull Context context, List<String> trainTimes) {
         super(context, R.layout.item_train_time, trainTimes);
@@ -30,33 +30,32 @@ public class TrainTimeAdapter extends ArrayAdapter<String> {
             convertView = LayoutInflater.from(context).inflate(R.layout.item_train_time, parent, false);
         }
 
-        // Get the time for this position
+
         String time = trainTimes.get(position);
 
-        // Find views in the item layout
+
         TextView tvTime = convertView.findViewById(R.id.tvTime);
         CardView cardViewTime = convertView.findViewById(R.id.cardViewTime);
 
-        // Set the time text
         tvTime.setText(time);
 
-        // Change the background color if this item is selected
+
         if (position == selectedPosition) {
-            cardViewTime.setCardBackgroundColor(Color.parseColor("#DC6A72")); // Selected color
+            cardViewTime.setCardBackgroundColor(Color.parseColor("#DC6A72"));
         } else {
-            cardViewTime.setCardBackgroundColor(Color.parseColor("#FFFFFF")); // Default color
+            cardViewTime.setCardBackgroundColor(Color.parseColor("#FFFFFF"));
         }
 
-        // Handle item click
+
         cardViewTime.setOnClickListener(v -> {
-            selectedPosition = position; // Update the selected position
-            notifyDataSetChanged(); // Refresh the list
+            selectedPosition = position;
+            notifyDataSetChanged();
         });
 
         return convertView;
     }
 
-    // Method to get the selected time
+
     public String getSelectedTime() {
         if (selectedPosition != -1) {
             return trainTimes.get(selectedPosition);
