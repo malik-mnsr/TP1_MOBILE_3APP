@@ -1,0 +1,31 @@
+<resources>
+    <!-- Source Stations -->
+    <string-array name="source_stations">
+        <item>Source</item>
+        <item>Paris Gare de Lyon</item>
+        <item>Lyon Part-Dieu</item>
+        <item>Marseille Saint-Charles</item>
+        <item>Bordeaux Saint-Jean</item>
+        <item>Toulouse Matabiau</item>
+        <item>Nice Ville</item>
+        <item>Nantes</item>
+        <item>Strasbourg</item>
+        <item>Lille Europe</item>
+        <item>Montpellier-Saint-Roch</item>
+    </string-array>
+
+    <!-- Destination Stations -->
+    <string-array name="destination_stations">
+        <item>Destination</item>
+        <item>Paris Gare de Lyon</item>
+        <item>Lyon Part-Dieu</item>
+        <item>Marseille Saint-Charles</item>
+        <item>Bordeaux Saint-Jean</item>
+        <item>Toulouse Matabiau</item>
+        <item>Nice Ville</item>
+        <item>Nantes</item>
+        <item>Strasbourg</item>
+        <item>Lille Europe</item>
+        <item>Montpellier-Saint-Roch</item>
+    </string-array>
+</resources>

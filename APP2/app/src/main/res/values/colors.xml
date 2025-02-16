@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#164358</color>
+    <color name="colorAccent">#F1F4F9</color>
+    <color name="divider">#DC6A72</color>
+    <color name="selectedColor">#FF9800</color> <!-- Couleur sur sélection -->
+    <color name="originalColor">#FFFFFF</color> <!-- Couleur d'origine -->
+</resources>

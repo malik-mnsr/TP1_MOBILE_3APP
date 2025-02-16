@@ -1,0 +1,59 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_back"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="40dp"
+        android:backgroundTint="@color/colorAccent"
+        android:background="@drawable/lavender_border">
+        <!-- Reservation Message -->
+        <TextView
+            android:id="@+id/tvReservationMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Train from [Source] to [Destination] - Reservation" />
+
+        <!-- Horizontal Calendar -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            >
+            <LinearLayout
+                android:id="@+id/calendarLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+        </HorizontalScrollView>
+
+        <!-- Train Times List -->
+        <ListView
+            android:id="@+id/trainTimesList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>>
+    <Button
+        android:id="@+id/btnMakeReservation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make Reservation"
+        android:textSize="18sp"
+
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+</LinearLayout>

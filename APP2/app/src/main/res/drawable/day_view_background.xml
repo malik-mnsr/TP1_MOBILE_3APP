@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Couleur pour l'état sélectionné -->
+    <item android:state_selected="true" android:drawable="@color/selectedColor" />
+    <!-- Couleur pour l'état par défaut -->
+    <item android:drawable="@color/originalColor" />
+</selector>
