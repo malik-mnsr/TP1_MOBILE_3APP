@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="langues">
+        <item>Français</item>
+        <item>English</item>
+        <item>العربية</item>
+    </string-array>
+    <integer-array name="flag_images">
+        <item>@drawable/ic_flag_fr</item>
+        <item>@drawable/ic_flag_en</item>
+        <item>@drawable/ic_flag_ar</item>
+    </integer-array>
+</resources>

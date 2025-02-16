@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Mon Application</string>
+    <string name="nom">Nom</string>
+    <string name="hint_nom">Entrez votre nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="hint_prenom">Entrez votre prénom</string>
+    <string name="age">Âge</string>
+    <string name="hint_age">Entrez votre âge</string>
+    <string name="domaine">Domaine de compétences</string>
+    <string name="hint_domaine">Entrez votre domaine de compétences</string>
+    <string name="telephone">Numéro de téléphone</string>
+    <string name="hint_telephone">Entrez votre numéro de téléphone</string>
+    <string name="valider">Valider</string>
+    <string name="confirmation_title">Confirmation</string>
+    <string name="confirmation_message">Êtes-vous sûr de vouloir valider ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="change_color">Changer la couleur</string>
+    <string name="OK">OK</string>
+    <string name="retour">Retour</string>
+    <string name="call">Appeller</string>
+    <string name="all_fields_required">Veuillez remplir tous les champs !</string>
+    <string name="flag">Drapeau</string>
+
+</resources>

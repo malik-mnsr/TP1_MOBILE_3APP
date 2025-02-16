@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">تطبيق اللغة</string>
+    <string name="nom">الاسم</string>
+    <string name="hint_nom">أدخل اسمك</string>
+    <string name="prenom">اللقب</string>
+    <string name="hint_prenom">أدخل لقبك</string>
+    <string name="age">العمر</string>
+    <string name="hint_age">أدخل عمرك</string>
+    <string name="domaine">المجال</string>
+    <string name="hint_domaine">أدخل مجال تخصصك</string>
+    <string name="telephone">رقم الهاتف</string>
+    <string name="hint_telephone">أدخل رقم هاتفك</string>
+    <string name="valider">إرسال</string>
+    <string name="confirmation_title">تأكيد</string>
+    <string name="confirmation_message">هل أنت متأكد أنك تريد التحقق؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="change_color">تغيير اللون</string>
+    <string name="OK">تأكيد</string>
+    <string name="retour">عودة</string>
+    <string name="call">إتصال</string>
+    <string name="all_fields_required">من فضلك إملأ كل شيء !</string>
+    <string name="flag">علم</string>
+
+</resources>
